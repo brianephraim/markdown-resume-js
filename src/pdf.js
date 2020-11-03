@@ -1,7 +1,9 @@
 const pdf = require('html-pdf');
 
 module.exports = function generate(html) {
-  const generated = pdf.create(html);
+  const generated = pdf.create(html, {
+    border: ".5in",
+  });
 
   return new Promise((resolve, reject) => {
     generated.toStream((err, stream) => {

@@ -8,11 +8,19 @@
 		content: ".";
 	}
 }
-
+html{
+	font-size: 12px;
+}
 body {
-	/*font: 12px normal 'Hoefler Text', Times New Roman, Times, serif;*/
+	margin: 0.5in;
+
+	font-family: "SF Pro";
+	// font-family: "SF UI Display";
+
+	// font: 12px normal 'SF Pro', Times New Roman, Times, serif;/**/
 	/*font-family: 'Roboto', sans-serif;*/
-	color: #444;
+	color: black;
+	font-weight: 700;
 }
 h1, h2, h3, h4, ul dl dt {
 	/*font-family: Futura, "Century Gothic", AppleGothic, sans-serif;*/
@@ -21,19 +29,22 @@ h1, h2, h3, h4, ul dl dt {
 .container {
 	margin: 0 auto;
 	padding: 0;
-	background: whiteSmoke;
 	border: solid #666;
 	border-width: 8px 0 2px 0;
 	text-align: left;
+	// background: #ddd;
 }
 
 .resume {
 	position:relative;
-	padding: 10px 20px;
+	padding-top: 10px;
+	// padding: 10px 20px;
 }
-
+a:visited,a:hover,a:active,a:link,a {
+	color: black;
+	text-decoration: none;
+}
 a[href$='.pdf'] {
-	background: #666;
 	color: white;
 	padding: 6px 12px;
 	margin-bottom: 6px;
@@ -42,30 +53,17 @@ a[href$='.pdf'] {
 	top: 15px;
 	right: 25px;
 }
-a[href*='github'] {
-	background: #000;
-	color: white;
-	padding: 6px 12px;
-	margin-bottom: 6px;
-	text-decoration: none;
-	position: absolute;
-	top: 45px;
-	right: 25px;
 
-	&:hover {
-		background: white;
-		color: #000;
-	}
+
+p {
+	font-size: 1rem;
+	line-height: 1.5rem;
 }
-
-/*p {
-	font-size: 1em;
-}*/
 
 blockquote {
 	margin: 0;
 	padding: 0;
-	line-height: 1.4em;
+	line-height: 1.4rem;
 }
 
 blockquote a {
@@ -96,56 +94,68 @@ ul {
 h1 {
 	margin: 0;
 	padding: 0;
-	font-size: 3em;
-	letter-spacing: -1px;
-	font-weight: normal;
+	font-size: 1.5rem;
+
+}
+strong {
+	font-family: "SF UI Display";
 }
 h2 {
-	margin: 0;
+	margin: 0 0 20px 0;
 	padding: 0;
-	font-size: 2em;
-	font-style: italic;
+	font-size: 1.3rem;
+	// font-style: italic;
 	letter-spacing: -1px;
 	font-weight: normal;
 }
-
 h3 {
-	border-bottom: 5px solid #000;
-	margin: 0;
-	padding: .25em 0 .25em .3em;
-	font-size: 2em;
+	font-size: 1rem;
+	margin: 0 0 10px;
+
+	// letter-spacing: -1.5px;
+}
+h3 strong{
+	margin-right: 10px;
+	// border-bottom: 5px solid #000;
+	// padding: .25em 0 .25em .3em;
+	font-size: 1.2rem;
 	font-style: italic;
 	font-weight: normal;
+	font-family: "SF UI Display";
 }
+
 
 h3+p,
 h3~ul {
-	margin: .2em 0 1.2em;
+	margin: .2rem 0 1.2rem 2rem;
 	padding: 0;
 	display: block;
-	font-size: 1em;
+	font-size: 1rem;
 	line-height: 1.5;
 }
 h3~ul {
-	padding-left: 1.5em;
+	padding-left: 1.5rem;
 }
 
 h4 {
-	font-size: 1.5em;
+	font-size: 1.0rem;
 	margin: 0;
 }
 
 ul li {
 	margin: 0;
 	padding: 0;
+	font-size: 0.93rem;
+	line-height: 1.3rem;
+	// font-size: 1em;
 	/*font-size: 1.2em;*/
 }
 
 ul,
-ol { 
+ol {
 	li ul li {
-		font-style: italic;
-		margin: 0 0 0 1.5em;
+		// font-style: italic;
+		margin: 0 0 0 1.5rem;
 		width: 80%;
 	}
 }
@@ -158,30 +168,30 @@ ul dl {
 		/*font-size: 1em;*/
 	}
 	dd {
-		margin: 0 0 1em;
+		margin: 0 0 1rem;
 		padding: 0 2em 0 0;
-		font-size: .8em;
-		line-height: 1.5em;
+		font-size: .8rem;
+		line-height: 1.5rem;
 	}
 }
 
 ol {
 	margin: 0;
-	margin-left: 1em;
-	padding: 0 0 .75em;
+	margin-left: 1rem;
+	padding: 0 0 .75rem;
 	width: 84%;
 	display: inline-block;
 }
 
 ol li {
-	margin: 0 0 0 .5em;
+	margin: 0 0 0 .5rem;
 	padding: 0;
 	border-top: 1px solid #CCCCCC;
 	width: 100%;
 	/*float: left;*/
 	/*list-style: none;*/
-	line-height: 1.5em;
-	font-size: 1em;
+	line-height: 1.5rem;
+	// font-size: 1rem;
 }
 ol li:nth-child(1) {
 	border-top: 0;
@@ -195,20 +205,20 @@ dl {
 	dt {
 		margin: 0;
 		padding: 0;
-		/*font-size: 1.4em;*/
+		/*font-size: 1.4rem;*/
 	}
 	dd {
 		padding: 0;
-		font-size: 0.8em;
+		font-size: 0.8rem;
 	}
 	strong {
 		display: block;
-		font-size: 1.2em;
+		font-size: 1.2rem;
 	}
 	em {
 		display: block;
-		font-size: 1.2em;
-		margin: .15em 0 .5em;
+		font-size: 1.2rem;
+		margin: .15em 0 .5rem;
 	}
 }
 
@@ -216,7 +226,7 @@ dl {
 	~ dl {
 		dt {
 			float: left;
-			margin-top: 1em;
+			margin-top: 1rem;
 		}
 		dd {
 			float: right;
@@ -226,7 +236,7 @@ dl {
 	}
 
 	~ p {
-		width: 85%;	
+		width: 85%;
 	}
 
 	~ ul {
@@ -244,7 +254,7 @@ dl {
 
 	+ p {
 		width: 100%;
-		font-size: 0.8em;
+		font-size: 0.8rem;
 		text-align: center;
 	}
 }

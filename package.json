@@ -32,7 +32,9 @@
     "prepublish": "npm run test",
     "pretest": "rimraf coverage/",
     "test": "nyc --reporter=html --reporter=text mocha",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "pdf": "./src/cli.js resume.md -t roboto -pdf && open resume.pdf",
+    "html": "./src/cli.js resume.md -t roboto && open resume.html"
   },
   "author": "Brian Hann",
   "license": "MIT",

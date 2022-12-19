@@ -1,10 +1,10 @@
-# **Brian Ephraim** - React Native Specialist
+# **Brian Ephraim** - Lead React Native Engineer
 
-100% remote from beautiful Garrison, NY  
-[brianephraim@gmail.com](mailto://brianephraim@gmail.com) - (914)482 2364
-[github.com/defualt](http://github.com/defualt) - [linkedin.com/in/brian-ephraim-29680531](https://www.linkedin.com/in/brian-ephraim-29680531)  
+Garrison, NY (remote)
+[brianephraim@gmail.com](mailto://brianephraim@gmail.com) - (914) 482 2364
+[github.com/defualt](https://github.com/brianephraim) - [linkedin.com/in/brian-ephraim-29680531](https://www.linkedin.com/in/brian-ephraim-29680531)  
 
-### **Tech Focus** React Native - Redux - GraphQL - Webpack
+### **Tech Focus** React Native - Typescript - Redux - GraphQL - Webpack
 
 ### **Organizational Roles** Architect, Senior Developer, Tech Lead
 
@@ -14,11 +14,18 @@
 
 ### **Professional Experience**
 #### **TED Conferences** (video & education) Consultant<br />Remote, January 2018 - present
-- Developing React Native applications from the ground up (iOs, Android, and web)
-- Meeting application requirements as sole app developer on one project
-	- launching the app to production in iOs App Store and Android Play Store and as a web app with in app purchasing
-	- setting up new React Native projects
+- Technical leading from-the-ground-up redesign of iOs and Android TED flagship app
+	- Collaborating with UX/UI designers, developers, and product owners to create a superior user experience
+	- Providing technical advice and coaching to junior developers
+	- Establishing standards for React Native development and architecture
+	- Enforcing performance and memory utilization standards
+	- Leading sprint planning, code reviews, and product presentations
+- Developing other apps as sole front-end app engineer
+	- leveraging a monorepo architecture with the other project to maximize code reuse
+	- launching the app to production in iOs App Store and Android Play Store and as a web app
+	- implementing in app purchasing
 	- deploying with Fastlane to Android and iOs Beta testers
+	- migrating deployment system to Bitrise CI
 	- handling Apple and Google signing certificates
 	- building entirety of application's screens and business logic
 	- developing a custom navigation system
@@ -28,10 +35,7 @@
 	- integrating Codepush for faster iterations
 	- closely collaborating with design and product on features
 	- building a custom video player with video download and caching functionality
-- Technical leading on another brand new React Native project
-	- maintaining both projects together as a monorepo with a custom architecture to maximize code sharing
-	- converting specifications into tickets for other engineers to accomplish
-	- providing principle code reviews for four engineers to ensure code quality, performance, and conformance with established systems and patterns
+
 
 #### **Float** (resource scheduling) - Senior Frontend Developer<br />Remote, November 2017 - March 2018
 - Building a Slackbot

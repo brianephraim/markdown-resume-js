@@ -52,7 +52,6 @@ Garrison, NY (remote)
 - Establishing end-to-end test system
 - Integrating websockets in application frontend
 - Reviewing contributor code
-- Agile
 
 #### **OKCupid** (dating website) - Frontend Engineer<br />NYC, November 2013 - August 2016
 - Building single-page and mutli-page web apps
@@ -83,7 +82,6 @@ Garrison, NY (remote)
 	- cache-busting mechanisms
 	- asset compilation
 	- rollback functionality
-	- git integration
 - Owning entire Git codebases
 - Sharing Git codebases with other front-end engineers
 - Conducting A/B tests and adjusting designs based on results

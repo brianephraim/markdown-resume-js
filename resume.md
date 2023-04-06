@@ -1,10 +1,10 @@
-# **Brian Ephraim** - Lead React Native Engineer
+# **Brian Ephraim** - Principal Full-Stack / Front End Software Engineer
 
 Garrison, NY (remote)
 [brianephraim@gmail.com](mailto://brianephraim@gmail.com) - (914) 482 2364
 [github.com/defualt](https://github.com/brianephraim) - [linkedin.com/in/brian-ephraim-29680531](https://www.linkedin.com/in/brian-ephraim-29680531)  
 
-### **Tech Focus** React Native - Typescript - Redux - GraphQL - Webpack
+### **Tech Focus** React - Node - React Native - AI - Typescript - Redux - GraphQL - Webpack
 
 ### **Organizational Roles** Architect, Senior Developer, Tech Lead
 
@@ -15,14 +15,18 @@ Garrison, NY (remote)
 ### **Professional Experience**
 #### **TED Conferences** (video & education) Consultant<br />Remote, January 2018 - present
 - Technical leading from-the-ground-up redesign of iOs and Android TED flagship app
+	- implementing React Native framework to leverage React knowledgebase amongst contributing engineers
 	- Collaborating with UX/UI designers, developers, and product owners to create a superior user experience
 	- Providing technical advice and coaching to junior developers
-	- Establishing standards for React Native development and architecture
+	- Establishing code standards for development and architecture
 	- Enforcing performance and memory utilization standards
 	- Leading sprint planning, code reviews, and product presentations
-- Developing other apps as sole front-end app engineer
+- Developing other web apps and native apps including frontend and backend
+	- developing with React on the web and React Native for the apps significant module reuse amongst the platforms
+	- building out the beta backend with Node JS, MongoDB, Express JS, and Heroku
 	- leveraging a monorepo architecture with the other project to maximize code reuse
 	- launching the app to production in iOs App Store and Android Play Store and as a web app
+	- writing unit tests and end-to-end test
 	- implementing in app purchasing
 	- deploying with Fastlane to Android and iOs Beta testers
 	- migrating deployment system to Bitrise CI

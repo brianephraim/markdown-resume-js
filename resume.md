@@ -1,4 +1,4 @@
-# **Brian Ephraim** - Principal React Native Engineer
+# **Brian Ephraim** - Lead React Native Engineer
 
 Garrison, NY (remote)
 [brianephraim@gmail.com](mailto://brianephraim@gmail.com) - (914) 482 2364

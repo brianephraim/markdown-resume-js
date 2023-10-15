@@ -14,29 +14,30 @@ Garrison, NY (remote)
 
 ### **Professional Experience**
 #### **TED Conferences** (video & education) Consultant<br />Remote, January 2018 - present
-- Technical leading from-the-ground-up redesign of iOs and Android TED flagship app
-	- implementing React Native framework to leverage React knowledgebase amongst contributing engineers
-	- Collaborating with UX/UI designers, developers, and product owners to create a superior user experience
-	- Providing technical advice and coaching to junior developers
-	- Establishing code standards for development and architecture
-	- Enforcing performance and memory utilization standards
-	- Leading sprint planning, code reviews, and product presentations
-- Developing other web apps and native apps including frontend and backend
-	- developing with React on the web and React Native for the apps significant module reuse amongst the platforms
-	- building out the beta backend with Node JS, MongoDB, Express JS, and Heroku
-	- leveraging a monorepo architecture with the other project to maximize code reuse
-	- launching the app to production in iOs App Store and Android Play Store and as a web app
+- Fullstack responsibilities
+	- building backend Node JS server with Express, MongoDB GraphQL, Heroku and AWS
+	- implementing JWT based authentiction
+	- creating Web client with React, Redux, and Webpack
+	- developg iOS and Android clients build with React Native
+	- configuring deployment automation with local builds and CI builds with Webpack, Fastlane, Bitrise and Codepush
+	- implementing thorough accessibility
 	- writing unit tests and end-to-end test
+- Technical leading from-the-ground-up redesign of iOS and Android TED flagship app
+	- implementing React Native framework to leverage React knowledgebase amongst contributing engineers
+	- collaborating with UX/UI designers, developers, and product owners to create a superior user experience
+	- providing technical advice and coaching to junior developers
+	- establishing code standards for development and architecture
+	- enforcing performance and memory utilization standards
+	- leading sprint planning, code reviews, and product presentations
+- Developing other web apps and native apps
+	- building entirety of applications' screens and business logic
+	- leveraging massive reusability of code across various apps, for web, native, and backend with React Native Web and Node through a monorepo architecture
+	- launching the app to production in iOS App Store and Android Play Store and as a web app
 	- implementing in app purchasing
-	- deploying with Fastlane to Android and iOs Beta testers
-	- migrating deployment system to Bitrise CI
 	- handling Apple and Google signing certificates
-	- building entirety of application's screens and business logic
 	- developing a custom navigation system
-	- building backend in Node to support Beta phase
 	- communicating backend requirements for production needs to backend engineers
 	- accomplishing network interacting with GraphQL
-	- integrating Codepush for faster iterations
 	- closely collaborating with design and product on features
 	- building a custom video player with video download and caching functionality
 
@@ -82,8 +83,7 @@ Garrison, NY (remote)
 	- cache-busting mechanisms
 	- asset compilation
 	- rollback functionality
-- Owning entire Git codebases
-- Sharing Git codebases with other front-end engineers
+- Collaboration with other developers through git
 - Conducting A/B tests and adjusting designs based on results
 - Organizing project roadmaps
 - Transferring architecture and features between separate projects
@@ -107,8 +107,6 @@ Garrison, NY (remote)
 #### **Alexander Interactive** (agency) - Frontend Web Developer<br />NYC, May 2011 - March 2012
 - Serving E-commerce clients such as Lowe's Home Improvement and Adorama
 - Doing agile with daily scrum calls, sprint planning/review, and demos for executive product owners
-- Flying to client corporate headquarters for onsite consulting
-
 
 #### **KickApps/Kit Digital** (agency) - Frontend Web Developer<br />NYC,October 2010 - May 2011
 - Developing social portals for such clients as The Doctor Oz TV Show, MIT University, Penguin publishers

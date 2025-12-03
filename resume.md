@@ -1,11 +1,11 @@
-# **Brian Ephraim**<br /> Principal Full-Stack / Front End Software Engineer
+# **Brian Ephraim**<br /> Principal Front End Engineer, Native and Web
 
 Garrison, NY (remote)
 [brianephraim@gmail.com](mailto://brianephraim@gmail.com) - (914) 482 2364
 [github.com/defualt](https://github.com/brianephraim) - [linkedin.com/in/brian-ephraim-29680531](https://www.linkedin.com/in/brian-ephraim-29680531)  
 
 ### Tech Focus 
-React - React - React Native - Typescript - Redux Toolkit - GraphQL - NextJs - Webpack - Node
+React - React Native - Typescript - Redux Toolkit - GraphQL - NextJs - Webpack - Node
 
 ### Organizational Roles 
 Architect - Principal - Tech Lead - Senior Engineer
@@ -15,14 +15,22 @@ OkCupid - TED - 4-5 star apps - millions of users
 
 ## Professional Experience (23 years)
 #### **XFactor** (AI startup) **Principal Frontend Engineer**<br />Remote, April 2023 - present
-- architecting the frontend codebase with Typescript React Native Web, NextJs, Tamagui, Victory Chart, and Redux Toolkit (RTK Query)
-- implementing complex features using chart visualizations, custom forms, demo mode, and interactive maps
+- leading front end efforts by tasking, mentoring, and overseeing contributors
+- architecting the frontend codebase with Typescript, React Native Web, NextJs, Tamagui, Redux Toolkit (RTK Query)
+- establishing code quality standards
+- implementing complex feature sets including
+  - AI Chat UI and integration with API
+	- chart visualizations
+	- complex forms
+	- large tables
+	- interactive maps
 - planning feature implementation strategies with product managers, engineers, and stake holders
 - modeling data structures in collaboration with colleagues in backend and machine learning
 - contributing to discussions about feature delivery processes related to scrum, Jira, and Notion
-- providing crucial feedback to designers to descope lower priority feature details from sprints
+- providing crucial feedback to designers about usability and implimentation prioritization
 - ensuring deadlines met for myself and the team
-- conducting technical and cultural fit interviews for candidates
+- conducting technical and cultural fit interviews for engineering candidates
+- participating in meetings with design partners about feature details
 
 #### **TED Conferences** (video & education) **Principal Frontend Consultant**<br />Remote, January 2018 - March 2023
 - Technical leading from-the-ground-up redesign of iOS and Android TED flagship app
@@ -137,3 +145,8 @@ OkCupid - TED - 4-5 star apps - millions of users
 
 ### **Education**
 2003 Ithaca College, Ithaca NY, Bachelor of Arts, Philosophy Major
+
+---
+
+### **Interests**
+In my free time, I enjoy playing and composing music with friends.  I play keyboard, bass, and guitar.  I also enjoy hiking, watching sci-fi shows, and thifting.

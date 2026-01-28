@@ -1,8 +1,8 @@
 # **Brian Ephraim**<br /> Principal Front End Engineer, Native and Web
 
 Garrison, NY (remote)
-[brianephraim@gmail.com](mailto://brianephraim@gmail.com) - (914) 482 2364
-[github.com/defualt](https://github.com/brianephraim) - [linkedin.com/in/brian-ephraim-29680531](https://www.linkedin.com/in/brian-ephraim-29680531)  
+[brianephraim@gmail.com](mailto://brianephraim@gmail.com) - (914) 482 2364  
+[github.com/brianephraim](https://github.com/brianephraim) - [linkedin.com/in/brian-ephraim-29680531](https://www.linkedin.com/in/brian-ephraim-29680531)  
 
 ### Tech Focus 
 React - React Native - Typescript - Redux Toolkit - GraphQL - NextJs - Webpack - Node
@@ -14,51 +14,50 @@ Architect - Principal - Tech Lead - Senior Engineer
 OkCupid - TED - 4-5 star apps - millions of users
 
 ## Professional Experience (23 years)
-#### **XFactor** (AI startup) **Principal Frontend Engineer**<br />Remote, April 2023 - present
-- leading front end efforts by tasking, mentoring, and overseeing contributors
-- architecting the frontend codebase with Typescript, React Native Web, NextJs, Tamagui, Redux Toolkit (RTK Query)
-- establishing code quality standards
-- implementing complex feature sets including
-  - AI Chat UI and integration with API
-	- chart visualizations
-	- complex forms
-	- large tables
-	- interactive maps
-- planning feature implementation strategies with product managers, engineers, and stake holders
-- modeling data structures in collaboration with colleagues in backend and machine learning
-- contributing to discussions about feature delivery processes related to scrum, Jira, and Notion
-- providing crucial feedback to designers about usability and implimentation prioritization
-- ensuring deadlines met for myself and the team
-- conducting technical and cultural fit interviews for engineering candidates
-- participating in meetings with design partners about feature details
+#### **XFactor** (AI startup) **Principal Frontend Engineer**<br />Remote, April 2023 - January 2026
+- Leading frontend efforts, including tasking, mentoring, and overseeing contributors
+- Architecting the frontend codebase using TypeScript, React Native Web, Next.js, Tamagui, and Redux Toolkit (RTK Query)
+- Establishing code quality standards and shared architectural patterns
+- Implementing complex, data-heavy feature sets including:
+  - AI chat interfaces, including frontend state management and API integration
+  - Interactive data visualizations and analytics
+  - Complex form workflows
+  - Large, highly interactive tables
+  - Map-based experiences
+- Planning feature implementation strategies with product managers, engineers, and stakeholders
+- Modeling data structures in collaboration with backend and machine learning teams
+- Contributing to delivery process discussions (Scrum, Jira, Notion)
+- Providing usability and implementation-prioritization feedback to design partners
+- Ensuring deadlines are met for myself and the team
+- Conducting technical and cultural fit interviews for engineering candidates
 
 #### **TED Conferences** (video & education) **Principal Frontend Consultant**<br />Remote, January 2018 - March 2023
 - Technical leading from-the-ground-up redesign of iOS and Android TED flagship app
-	- implementing React Native framework to leverage React knowledgebase amongst contributing engineers
-	- collaborating with UX/UI designers, developers, and product owners to create a superior user experience
-	- providing technical advice and coaching to junior developers
-	- establishing code standards for development and architecture
-	- enforcing performance and memory utilization standards
-	- leading sprint planning, code reviews, and product presentations
+	- Implementing React Native framework to leverage React knowledgebase amongst contributing engineers
+	- Collaborating with UX/UI designers, developers, and product owners to create a superior user experience
+	- Providing technical advice and coaching to junior developers
+	- Establishing code standards for development and architecture
+	- Enforcing performance and memory utilization standards
+	- Leading sprint planning, code reviews, and product presentations
 - Developing other web apps and native apps
-	- building entirety of applications' screens and business logic
-	- leveraging massive reusability of code across various apps, for web, native, and backend with React Native Web and Node through a monorepo architecture
-	- launching the app to production in iOS App Store and Android Play Store and as a web app
-	- implementing in app purchasing
-	- handling Apple and Google signing certificates
-	- developing a custom navigation system
-	- communicating backend requirements for production needs to backend engineers
-	- accomplishing network interacting with GraphQL
-	- closely collaborating with design and product on features
-	- building a custom video player with video download and caching functionality
+	- Building entirety of applications' screens and business logic
+	- Leveraging massive reusability of code across various apps, for web, native, and backend with React Native Web and Node through a monorepo architecture
+	- Launching the app to production in iOS App Store and Android Play Store and as a web app
+	- Implementing in app purchasing
+	- Handling Apple and Google signing certificates
+	- Developing a custom navigation system
+	- Communicating backend requirements for production needs to backend engineers
+	- Accomplishing network interacting with GraphQL
+	- Closely collaborating with design and product on features
+	- Building a custom video player with video download and caching functionality
 - Fullstack responsibilities
-	- building backend Node JS server with Express, MongoDB GraphQL, Heroku and AWS
-	- implementing JWT based authentiction
-	- creating Web client with React, Redux, and Webpack
-	- developg iOS and Android clients build with React Native
-	- configuring deployment automation with local builds and CI builds with Webpack, Fastlane, Bitrise and Codepush
-	- implementing thorough accessibility
-	- writing unit tests and end-to-end test
+	- Building backend Node JS server with Express, MongoDB GraphQL, Heroku and AWS
+	- Implementing JWT based authentiction
+	- Creating Web client with React, Redux, and Webpack
+	- Developing iOS and Android clients build with React Native
+	- Configuring deployment automation with local builds and CI builds with Webpack, Fastlane, Bitrise and Codepush
+	- Implementing thorough accessibility
+	- Writing unit tests and end-to-end test
 
 #### **Float** (resource scheduling) - **Senior Frontend Developer**<br />Remote, November 2017 - March 2018
 - Building a Slackbot
@@ -75,32 +74,32 @@ OkCupid - TED - 4-5 star apps - millions of users
 #### **OKCupid** (dating website) - **Frontend Engineer**<br />NYC, November 2013 - August 2016
 - Building single-page and mutli-page web apps
 	- Using React and Angular
-	- responsible for entire dating site front end feature sets
+	- Responsible for entire dating site front end feature sets
 - Developing features, such as
-	- complex business logic
-	- touch and swipe interaction
-	- infinite scroll
-	- pull to refresh
-	- pinch to zoom
-	- photo upload
+	- Complex business logic
+	- Touch and swipe interaction
+	- Infinite scroll
+	- Pull to refresh
+	- Pinch to zoom
+	- Photo upload
 	- Instant chats and notifications with WebSockets
 	- Tinder-like card swiping interface
-	- animated screen transitions with 3D effects
+	- Animated screen transitions with 3D effects
 	- swipeable image galleries
-	- phone/tablet responsive
-	- geolocation
-	- lazy loading assets
-	- optimized load times via vanilla.js landing pages, on-demand asset loading, bundling, and compression
-	- unit tests
+	- Phone/tablet responsive
+	- Geolocation
+	- Lazy loading assets
+	- Optimized load times via vanilla.js landing pages, on-demand asset loading, bundling, and compression
+	- Unit tests
 - Assembling Grunt development environment, including:
-	- localhost server
-	- remote debugging console
-	- effortless retina/non-retina spritesheet generation
-	- endpoint proxying
-	- build and deployment scripts for a variety of asset servers, including AWS
-	- cache-busting mechanisms
-	- asset compilation
-	- rollback functionality
+	- Localhost server
+	- Remote debugging console
+	- Effortless retina/non-retina spritesheet generation
+	- Endpoint proxying
+	- Build and deployment scripts for a variety of asset servers, including AWS
+	- Cache-busting mechanisms
+	- Asset compilation
+	- Rollback functionality
 - Collaboration with other developers through git
 - Conducting A/B tests and adjusting designs based on results
 - Organizing project roadmaps

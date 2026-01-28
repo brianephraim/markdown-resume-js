@@ -29,12 +29,14 @@
   "scripts": {
     "dev": "mocha --watch",
     "lint": "eslint ./src/ --fix",
-    "prepublish": "npm run test",
+    "prepublish": "echo \"Skipping tests during install\"",
     "pretest": "rimraf coverage/",
     "test": "nyc --reporter=html --reporter=text mocha",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "pdf": "./src/cli.js resume.md -t roboto -pdf && open resume.pdf",
-    "html": "./src/cli.js resume.md -t roboto && open resume.html"
+    "html": "./src/cli.js resume.md -t roboto && open resume.html",
+    "md-to-pdf": "md-to-pdf resume.md --stylesheet md-to-pdf.css",
+    "md-to-html": "md-to-pdf resume.md --stylesheet md-to-pdf.css --as-html"
   },
   "author": "Brian Hann",
   "license": "MIT",
@@ -49,6 +51,7 @@
     "inliner": "^1.13.1",
     "less": "^2.6.1",
     "marked": "^0.3.12",
+    "md-to-pdf": "^5.2.5",
     "meow": "^4.0.0",
     "mustache": "^2.2.1",
     "nyc": "^11.4.1",

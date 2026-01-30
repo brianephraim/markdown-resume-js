@@ -1,0 +1,201 @@
+/* resume.css */
+
+/* ---- Page + base typography ---- */
+:root{
+    --page-max: 900px;
+    --text: #111;
+    --muted: #555;
+    --light: #777;
+    --rule: #e6e6e6;
+    --accent: #000;
+  
+    --font-sans: "Segoe UI", SegoeUI, system-ui, -apple-system, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  
+    --lh: 1.42;
+  }
+  
+  * { box-sizing: border-box; }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: var(--text);
+    font-family: var(--font-sans);
+    line-height: var(--lh);
+    font-size: 15.5px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "kern";
+  }
+  
+  body {
+    max-width: var(--page-max);
+    margin: 44px auto;
+    padding: 0 28px 48px;
+  }
+  
+  /* ---- Links ---- */
+  a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(11, 95, 255, 0.25);
+  }
+  a:hover { border-bottom-color: rgba(11, 95, 255, 0.6); }
+  
+  /* ---- Headings ---- */
+  h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+    letter-spacing: -0.01em;
+  }
+  
+  h1 {
+    font-size: 30px;
+    line-height: 1.12;
+    margin-bottom: 10px;
+  }
+  
+  h1 strong { font-weight: 750; }
+  
+  h2 {
+    margin-top: 24px;
+    padding-top: 6px;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+  }
+  
+  h3 {
+    margin-top: 18px;
+    font-size: 14px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  
+  h4 {
+    margin-top: 16px;
+    font-size: 15.5px;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+  
+  /* ---- Paragraphs + lists ---- */
+  p {
+    margin: 8px 0 0;
+    color: var(--text);
+  }
+  
+  p:first-of-type {
+    margin-top: 8px;
+    color: var(--muted);
+  }
+  
+  /* Make the contact line look tighter/cleaner */
+  h1 + p {
+    margin-top: 8px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--rule);
+  }
+  
+  /* Lists */
+  ul {
+    margin: 8px 0 0 18px;
+    padding: 0;
+  }
+  
+  li {
+    margin: 4px 0;
+  }
+  
+  li::marker { color: #999; }
+  
+  ul ul {
+    margin-top: 6px;
+    margin-left: 18px;
+  }
+  
+  ul ul li {
+    margin: 3px 0;
+    color: var(--muted);
+  }
+  
+  /* ---- Resume-specific formatting helpers ---- */
+  
+  /* Make the role lines more scannable:
+     Company bold stays bold; title bold stays bold; location/dates look muted. */
+  h4 br + text,
+  h4 br {
+    /* br is fine; we just style the surrounding text with color via h4 rules below */
+  }
+  
+  h4 {
+    padding-top: 10px;
+    border-top: 5px solid var(--rule);
+  }
+  
+  h4 strong:first-of-type {
+    font-weight: 800;
+  }
+  
+  h4 strong {
+    font-weight: 750;
+  }
+  
+  /* Dim anything after the first line by slightly muting the whole h4,
+     but keep the bold text strong. */
+  h4 {
+    color: var(--muted);
+  }
+  h4 strong { color: var(--text); }
+  
+  /* Horizontal rules */
+  hr {
+    border: 0;
+    border-top: 10px solid var(--rule);
+    margin: 18px 0;
+  }
+  
+  /* ---- Small refinements ---- */
+  code, pre {
+    font-family: var(--font-mono);
+    font-size: 0.95em;
+  }
+  
+  blockquote {
+    margin: 12px 0;
+    padding: 8px 12px;
+    border-left: 3px solid var(--rule);
+    color: var(--muted);
+  }
+  
+  /* ---- Print ---- */
+  @media print {
+    :root{
+      --accent: #000;
+      --rule: #ddd;
+    }
+  
+    body {
+      margin: 0;
+      padding: 0.55in 0.6in 0.7in;
+      max-width: none;
+      font-size: 11.2pt;
+    }
+  
+    a {
+      color: #000;
+      border-bottom: none;
+      text-decoration: none;
+    }
+  
+    /* Keep experience entries from splitting weirdly */
+    h4, ul { break-inside: avoid; page-break-inside: avoid; }
+  
+    /* Reduce overly large header for print */
+    h1 { font-size: 22pt; }
+    h2 { font-size: 13pt; }
+    h3 { font-size: 10pt; }
+  }
+  

@@ -5,7 +5,7 @@ Garrison, NY (remote)
 [github.com/brianephraim](https://github.com/brianephraim) - [linkedin.com/in/brian-ephraim-29680531](https://www.linkedin.com/in/brian-ephraim-29680531)  
 
 ### Tech Focus 
-React - React Native - Typescript - Redux Toolkit - GraphQL - NextJs - Webpack - Node
+AI agent workflow (Claude Code, Cursor agents, Codex) - React - React Native - Typescript - Redux Toolkit - GraphQL - NextJs - Webpack - Node
 
 ### Organizational Roles 
 Architect - Principal - Tech Lead - Senior Engineer
@@ -13,9 +13,10 @@ Architect - Principal - Tech Lead - Senior Engineer
 ### Career Highlights 
 OkCupid - TED - 4-5 star apps - millions of users
 
-## Professional Experience (23 years)
+## Professional Experience (25 years)
 #### **XFactor** (AI startup) **Principal Frontend Engineer**<br />Remote, April 2023 - January 2026
 - Leading frontend efforts, including tasking, mentoring, and overseeing contributors
+- Operationalizing AI-assisted development workflows (e.g., Claude Code, Cursor)
 - Architecting the frontend codebase using TypeScript, React Native Web, Next.js, Tamagui, and Redux Toolkit (RTK Query)
 - Establishing code quality standards and shared architectural patterns
 - Implementing complex, data-heavy feature sets including:
